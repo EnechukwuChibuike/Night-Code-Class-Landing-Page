@@ -1,4 +1,145 @@
 * {
   padding: 0%;
   margin: 0%;
+  font-family: sans-serif;
+}
+
+main {
+  background-image: url("./images/man.jpg");
+  background-size: cover;
+  height: 120vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  box-shadow: 1px 1px 5px rgba(0.5, 0.5, 0.5, 0.9);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+strong {
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 92);
+}
+
+.photos {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+}
+
+.center {
+  display: grid;
+  gap: 50px;
+  width: 70vw;
+  height: inherit;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item img {
+  height: 30vh;
+  width: 300px;
+}
+
+.text {
+  display: grid;
+  gap: 30px;
+  width: 40vw;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.text h1 {
+  font-size: 50px;
+  color: blue;
+}
+
+.text p {
+  line-height: 30px;
+  color: rgb(39, 38, 38);
+}
+
+.servicesBg {
+  background-image: url("./images/street.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.servicesText {
+  width: 25vw;
+}
+
+.offer {
+  display: grid;
+  gap: 20px;
+  width: 30vw;
+}
+
+.offer button {
+  background-color: transparent;
+  color: blue;
+  border: none;
+  width: 50%;
+  font-size: 16px;
+  height: 50px;
+}
+
+.offerBtn button:first-child {
+  border-bottom: 2px solid blue;
+}
+
+.offerBtn {
+  display: flex;
+}
+
+.servicesText h3 {
+  color: blue;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.contactBg {
+  background-image: url("./images/stars.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
 }
