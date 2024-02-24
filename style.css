@@ -143,3 +143,97 @@ nav a {
   background-position: center;
   height: 80vh;
 }
+
+.contact {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactText {
+  width: 30vw;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+  gap: 25px;
+  width: 30vw;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+}
+
+span {
+  width: inherit;
+}
+
+label {
+  width: inherit;
+}
+
+label input {
+  width: 90%;
+  padding: 10px 0px;
+}
+
+label i {
+  width: 10%;
+  font-size: 25px;
+}
+
+form button {
+  padding: 8px 16px;
+  font-size: 18px;
+  background-color: rgb(0, 128, 96);
+  color: white;
+  border: none;
+}
+
+footer {
+  height: 40vh;
+}
+
+.upperFooter {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(66, 62, 62);
+  color: white;
+}
+
+.footerText {
+  width: 30vw;
+  display: grid;
+  gap: 10px;
+}
+
+ul {
+  display: grid;
+  gap: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.lowerFooter {
+  height: 10vh;
+  background-color: rgb(15, 14, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
